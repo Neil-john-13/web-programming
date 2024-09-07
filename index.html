@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Neil John">
+    <meta name="description" content="A website to showcase my bucketlist and favourite song and movie">
+    <title>About Neil John</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <h1> Neil John</h1>
+        </header>
+    
+        <section>
+            <a href="https://www.linkedin.com/in/neil-john-494196228/" target="_blank">
+                <img src="Neil John.jpg" alt="Neil John" id="profile-picture" class="profile">
+            </a>
+        </section>
+    </div>
+  
+    <div class="about-me">
+        <h2>About Me</h2>
+        <p>
+            I am  B.Tech Computer Science student with a strong interest in machine learning and AI. I have experience with Python, Java, Rust, and C, and have worked on projects involving predictive modelling and AI applications. I am passionate about web development and programming.
+        </p>
+        <ul>
+            <li>
+                <strong>Strengths:</strong> Quick Learner, problem-solving, adaptability
+            </li>
+            <li>
+                <strong>Weaknesses:</strong> Perfectionism, time management
+            </li>
+        </ul>
+    </div>
+    <div class="my-table">
+        <h2>My Bucket List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Serial Number</th>
+                    <th>Item</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>BTech</td>
+                    <td>In progress</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Get a Job</td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Learn French</td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Travel around the world</td>
+                    <td>Not Completed</td>
+                </tr>
+               
+                <tr>
+                    <td>5</td>
+                    <td>Start a Record Label</td>
+                    <td>Not Completed</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="media-section">
+        <h2>Favorite Movie Clip</h2>
+        
+        <video width="320" height="240" controls>
+            <source src ="Avengers.Age.of.Ultron.mp4" type ="video/mp4">
+        </video>
+        <p><strong>Age of Ultron: Final fight scene</strong> </p>
+        
+        <h2>Favorite Song</h2>
+        <img src="Taylor_Swift_-_Shake_It_Off.png" alt="fav-song" id="fav-song" class="fav-song">
+
+        <p><strong>Shake It Off by Taylor Swift</strong> </p>
+
+        <audio controls>
+            <source src="Taylor_Swift_-_Shake_It_Off.mp3" type ="audio/mpeg">
+        </audio>
+        
+    </div>
+    <div class="bn">
+        <button onclick="showWelcomeMessage()">Click Here</button>
+    </div>
+</body>
+</html>
